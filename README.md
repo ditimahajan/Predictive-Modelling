@@ -22,3 +22,10 @@ This project implements a logistic regression-based model to **predict industria
 ---
 
 ## 📊 Sample Output
+Logistic Regression Equation:
+logit(p) = -0.732 + (1.214 * Temperature) + (-0.943 * pH) + (0.556 * FlowRate) + (-0.385 * Pressure)
+
+Probability(p) = 1 / (1 + exp(-logit(p)))
+
+Model Accuracy: 86.21%
+McFadden's pseudo R²: 0.3125
